@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -21,95 +21,89 @@ button {
     background-color: var(--WhiteBackground);
 }
 
-.page-header a {
+.logo-link {
     text-decoration: none;
 }
 
-.page-header ul {
-    list-style-type: none;
-}
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.166666666666667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    width: 71px;
-    height: 21px;
-    color: var(--TextColor)
+    color: var(--PrimaryBrand);
 }
 
-.logo-web {
-    width: 44px;
-    height: 21px;
-    color: #4D5AE5;
+.logo-studio {
+    color: var(--TextColor);
 }
 
-.nav-links li > a {
+.nav-list {
+    list-style: none;
+}
+
+.nav-list-a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--TextColor)
+    color: var(--TextColor);
 }
 
-.nav-links li > a:hover,
-.nav-links li > a:focus {
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-list-a:hover,
+.nav-list-a:focus {
     color: var(--PressedState);
 }
 
-.adress-links li > a {
+.adress-links {
+    font-style: normal;
+}
+
+.adress-list {
+    list-style: none;
+}
+
+.adress-list-a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--BodyText)
+    color: var(--BodyText);
 }
 
-.adress-links li > a:hover,
-.adress-links li > a:focus {
-    color: var(--PressedState);
+.adress-link-a:hover,
+.adress-link-a:focus {
+color: var(--PressedState);
 }
 
 .hero {
-    background-color: #2E2F42;;
-    width: 1440px;
-    height: 600px;        
-    left: 0px;
-    top: 72px;
+    background-color: #2E2F42;;       
 }
 
 .main-title {
-    left: 472px;
-    top: 260px;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.071428571428571;
-    text-align: center;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .main-button {
     background-color: var(--PrimaryBrand);
-    left: 636px;
-    top: 428px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    padding: 16px 32px;
-    gap: 10px;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
-    display: flex;
-    align-items: center;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    white-space: nowrap;
 }
 
 .main-button:hover {
-    background-color: var(--PressedState);
+    background-color: #404BBF;
 }
 
 .adventages ul {
@@ -134,7 +128,7 @@ list-style-type: none;
 .activity-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.111111111111111;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -142,7 +136,6 @@ list-style-type: none;
 
 .activity-list li {
     list-style-type: none;
-    gap: 24px;
 }
 
 .team-container {
@@ -152,7 +145,7 @@ list-style-type: none;
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.111111111111111;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -162,16 +155,12 @@ list-style-type: none;
 .team-list li {
     list-style-type: none;
     background: #FFFFFF;
-    width: 264px;
-    height: 380px;
-    gap: 24px;
 }
 
 .team-list li > h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -179,7 +168,6 @@ list-style-type: none;
 .team-list li > p {
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--BodyText);
 }
@@ -196,9 +184,7 @@ list-style-type: none;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.166666666666667;
-    display: flex;
-    align-items: center;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
@@ -219,18 +205,9 @@ list-style-type: none;
 
 .button-list li > button {
     background-color: var(--Cloud);
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
 }
@@ -243,4 +220,23 @@ list-style-type: none;
 
 .project-cards-list li {
     list-style-type: none;
+}
+
+.project-cards-list a {
+    text-decoration: none;
+}
+
+.cards-list h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--TextColor);
+}
+
+.cards-list p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--BodyText)
 }

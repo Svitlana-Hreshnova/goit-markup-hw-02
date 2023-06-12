@@ -17,14 +17,20 @@ button {
     cursor: pointer;
 }
 
+/* Header */
+
 .page-header {
     background-color: var(--WhiteBackground);
 }
 
-.logo-link {
+.page-header a {
     text-decoration: none;
 }
 
+.page-header ul {
+    list-style-type: none;
+
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -40,11 +46,7 @@ button {
     color: var(--TextColor);
 }
 
-.nav-list {
-    list-style: none;
-}
-
-.nav-list-a {
+.nav-links li > a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -52,34 +54,28 @@ button {
     color: var(--TextColor);
 }
 
-.nav-link {
-    text-decoration: none;
-}
-
-.nav-list-a:hover,
-.nav-list-a:focus {
+.nav-links li > a:hover,
+.nav-links li > a:focus {
     color: var(--PressedState);
 }
 
-.adress-links {
+.adress-list {
     font-style: normal;
 }
 
-.adress-list {
-    list-style: none;
-}
-
-.adress-list-a {
+.adress-links li > a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--BodyText);
 }
 
-.adress-link-a:hover,
-.adress-link-a:focus {
+.adress-links li > a:hover,
+.adress-links li > a:focus {
 color: var(--PressedState);
 }
+
+/* Home-page main */
 
 .hero {
     background-color: #2E2F42;;       
@@ -129,7 +125,6 @@ list-style-type: none;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -172,6 +167,8 @@ list-style-type: none;
     color: var(--BodyText);
 }
 
+/* Footer */
+
 .page-footer {
     background: #2E2F42;;
 }
@@ -181,14 +178,9 @@ list-style-type: none;
 }
 
 .logo-footer {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #F4F4FD;
 }
+
 
 .page-footer p {
     font-size: 16px;
@@ -197,7 +189,7 @@ list-style-type: none;
     color: #F4F4FD;
 }
 
-/* Portfolio */
+/* Portfolio main*/
 
 .button-list li {
     list-style-type: none;

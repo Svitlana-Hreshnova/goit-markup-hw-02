@@ -1,9 +1,3 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-
 :root {
     --PrimaryBrand: #4D5AE5;
     --PressedState: #404BBF;
@@ -11,6 +5,12 @@ body {
     --WhiteBackground: #FFFFFF;
     --BodyText: #434455;
     --Cloud: #F4F4FD;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 button {
@@ -23,13 +23,12 @@ button {
     background-color: var(--WhiteBackground);
 }
 
-.page-header a {
+.link {
     text-decoration: none;
 }
 
-.page-header ul {
-    list-style-type: none;
-
+.list {
+    list-style: none;
 }
 
 .logo {
@@ -46,7 +45,7 @@ button {
     color: var(--TextColor);
 }
 
-.nav-links li > a {
+.nav-links {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -54,8 +53,8 @@ button {
     color: var(--TextColor);
 }
 
-.nav-links li > a:hover,
-.nav-links li > a:focus {
+.nav-links:hover,
+.nav-links:focus {
     color: var(--PressedState);
 }
 
@@ -63,19 +62,21 @@ button {
     font-style: normal;
 }
 
-.adress-links li > a {
+.adress-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--BodyText);
 }
 
-.adress-links li > a:hover,
-.adress-links li > a:focus {
+.adress-link:hover,
+.adress-link:focus {
 color: var(--PressedState);
 }
 
 /* Home-page main */
+
+/* Hero Content */
 
 .hero {
     background-color: #2E2F42;;       
@@ -99,15 +100,14 @@ color: var(--PressedState);
     letter-spacing: 0.04em;
 }
 
-.main-button:hover {
+.main-button:hover,
+.main-button:focus {
     background-color: #404BBF;
 }
 
-.adventages ul {
-list-style-type: none;
-}
+/* Adventages */
 
-.list-adventages li > h3 {
+.adventage-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;   
@@ -115,12 +115,14 @@ list-style-type: none;
     color: #2E2F42;
 }
 
-.list-adventages li > p {
+.adventage-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--BodyText);
 }
+
+/* Activity of the company */
 
 .activity-title {
     font-weight: 700;
@@ -132,9 +134,7 @@ list-style-type: none;
     color: var(--TextColor);
 }
 
-.activity-list li {
-    list-style-type: none;
-}
+/* Team */
 
 .team-container {
     background-color: var(--Cloud);
@@ -150,12 +150,11 @@ list-style-type: none;
     color: #2E2F42;
 }
 
-.team-list li {
-    list-style-type: none;
-    background: #FFFFFF;
+.team-component {
+    background-color: #FFFFFF;
 }
 
-.team-list li > h3 {
+.list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -163,7 +162,7 @@ list-style-type: none;
     color: #2E2F42;
 }
 
-.team-list li > p {
+.team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -176,16 +175,11 @@ list-style-type: none;
     background: #2E2F42;;
 }
 
-.page-footer a {
-    text-decoration: none;
-}
-
 .logo-footer {
     color: #F4F4FD;
 }
 
-
-.page-footer p {
+.footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -194,11 +188,7 @@ list-style-type: none;
 
 /* Portfolio main*/
 
-.button-list li {
-    list-style-type: none;
-}
-
-.button-list li > button {
+.button-list {
     background-color: var(--Cloud);
     font-weight: 500;
     font-size: 16px;
@@ -207,21 +197,13 @@ list-style-type: none;
     color: #4D5AE5;
 }
 
-.button-list li > button:hover,
-.button-list li > button:focus {
+.button-list:hover,
+.button-list:focus {
     background-color: var(--PressedState);
     color: #FFFFFF;
 }
 
-.project-cards-list li {
-    list-style-type: none;
-}
-
-.project-cards-list a {
-    text-decoration: none;
-}
-
-.cards-list h3 {
+.project-card-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -229,7 +211,7 @@ list-style-type: none;
     color: var(--TextColor);
 }
 
-.cards-list p {
+.project-card-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
